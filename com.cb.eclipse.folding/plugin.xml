@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<plugin>
+   <extension
+         point="org.eclipse.jdt.ui.foldingStructureProviders">
+      <provider
+            preferencesClass="com.cb.eclipse.folding.java.preferences.EnhancedFoldingPreferenceBlock"
+            class="com.cb.eclipse.folding.java.EnhancedJavaFoldingStructureProvider"
+            name="Coffee Bytes Java Folding"
+            id="com.cb.eclipse.folding.provider1"/>
+   </extension>
+</plugin>
